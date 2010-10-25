@@ -1,0 +1,24 @@
+/* browsertiles. 2010. Paul M. Watson <paul@paulmwatson.com> */
+section.page
+{
+  background-color: #353535;
+  border-right: solid 50px #000;
+  border-left: solid 50px #000;
+  height: 100%;
+  left: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+section.page.current
+{
+  left: -50px;
+}
+
+section.page p
+{
+  line-height: 1.5em;
+  padding: 0 10px;
+}

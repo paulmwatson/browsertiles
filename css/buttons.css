@@ -1,0 +1,23 @@
+/* browsertiles. 2010. Paul M. Watson <paul@paulmwatson.com> */
+button.home
+{
+  background: rgba(53,53,53,0.5) url(/images/icons/arrow-upstop.png) no-repeat;
+  border-style: none;
+  cursor: pointer;
+  float: left;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+}
+
+button.back
+{
+  background: transparent url(/images/icons/arrow-left.png) no-repeat;
+  border-style: none;
+  cursor: pointer;
+  float: left;
+  height: 48px;
+  width: 48px;
+}
