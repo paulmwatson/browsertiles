@@ -1,0 +1,205 @@
+/* browsertiles. 2010. Paul M. Watson <paul@paulmwatson.com> */
+.tiles, .tile
+{
+  list-style-type: none;
+}
+
+.tiles
+{
+  height: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px;
+  width: 95%;
+}
+
+@media only screen and (max-width: 550px)
+{
+  .tiles
+  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+  }
+}
+
+/* Default Tile */
+.tile
+{
+  cursor: pointer;
+  float: left;
+  height: 15%;
+  margin: 0;
+  opacity: 0.8;
+  overflow: hidden;
+  position: relative;
+  width: 10%;
+}
+
+.tile div
+{
+  background-repeat: no-repeat;
+  background-color: #222;
+  height: 100%;
+  width: 100%;
+  margin: 10px 10px 0 10px;
+  overflow: hidden;
+}
+
+.tile:hover
+{
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: scale(1.05);
+}
+
+.tile h2
+{
+  bottom: 10px;
+  left: 20px;
+  position: absolute;
+  text-shadow: 1px 1px 0 #888;
+  white-space: nowrap;
+}
+
+.tile h3
+{
+  font-family: SegoeWP;
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  top: 20px;
+}
+
+/* Custom Sizes */
+.tile.wide
+{
+  width: 20%;
+}
+
+.tile.high
+{
+  height: 30%;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+  .tile
+  {
+    width: 12.5%;
+  }
+  
+  .tile.wide
+  {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 750px)
+{
+  .tile
+  {
+    width: 16.5%;
+  }
+  
+  .tile.wide
+  {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 550px)
+{
+  .tile
+  {
+    width: 33%;
+  }
+  
+  .tile.wide
+  {
+    width: 66%;
+  }
+}
+
+@media only screen and (max-height: 600px)
+{
+  .tile
+  {
+    height: 20%;
+  }
+  
+  .tile.high
+  {
+    height: 40%;
+  }
+}
+
+/* Colours */
+.theme_blue .tile div, .tile.blue div
+{
+  background-color: #1BA1E2;
+}
+
+.theme_grey .tile div, .tile.grey div
+{
+  background-color: #666;
+}
+
+.theme_black .tile div, .tile.black div
+{
+  background-color: #000;
+}
+
+.theme_white .tile div, .tile.white div
+{
+  background-color: #fff;
+  color: #333;
+}
+
+.theme_orange .tile div, .tile.orange div
+{
+  background-color: #F09609;
+}
+
+.theme_lime .tile div, .tile.lime div
+{
+  background-color: #8CBF26;
+}
+
+.theme_brown .tile div, .tile.brown div
+{
+  background-color: #996600;
+}
+
+.theme_pink .tile div, .tile.pink div
+{
+  background-color: #FF0097;
+}
+
+.theme_red .tile div, .tile.red div
+{
+  background-color: #E51400;
+}
+
+.theme_green .tile div, .tile.green div
+{
+  background-color: #339933;
+}
+
+.theme_magenta .tile div, .tile.magenta div
+{
+  background-color: #FF0097;
+}
+
+.theme_purple .tile div, .tile.purple div
+{
+  background-color: #A200FF;
+}
+
+.theme_teal .tile div, .tile.teal div
+{
+  background-color: #00ABA9;
+}

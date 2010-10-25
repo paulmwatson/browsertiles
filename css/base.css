@@ -1,0 +1,38 @@
+/* browsertiles. 2010. Paul M. Watson <paul@paulmwatson.com> */
+/* #TODO: Fix SegoeWP distribution. */
+@font-face
+{
+  font-family: SegoeWP;
+  src: url('/fonts/SegoeWP.ttf');
+}
+
+@font-face
+{
+  font-family: SegoeWPLight;
+  src: url('/fonts/SegoeWP-Light.ttf');
+}
+
+
+html, body
+{
+  background-color: #353535;
+  color: #fff;
+  font-family: SegoeWPLight, helvetica, sans-serif;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+body
+{
+  background-size: 100% auto;
+}
+
+h1
+{
+  font-size: 56px;
+  margin-bottom: 50px;
+  padding-left: 1%;
+  padding-top: 1%;
+  width: 200%;
+}

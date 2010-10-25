@@ -1,0 +1,135 @@
+/* browsertiles. 2010. Paul M. Watson <paul@paulmwatson.com> */
+.icon_camera div
+{
+  background-image: url(/images/icons/camera.png);
+}
+
+.icon_add_favourite div
+{
+  background-image: url(/images/icons/add-favourite.png);
+}
+
+.icon_arrow_downstop div
+{
+  background-image: url(/images/icons/arrow-downstop.png);
+}
+
+.icon_arrow_left div
+{
+  background-image: url(/images/icons/arrow-left.png);
+}
+
+.icon_arrow_next div
+{
+  background-image: url(/images/icons/arrow-next.png);
+}
+
+.icon_arrow_right div
+{
+  background-image: url(/images/icons/arrow-right.png);
+}
+
+.icon_arrow_previous div
+{
+  background-image: url(/images/icons/arrow-previous.png);
+}
+
+.icon_arrow_upstop div
+{
+  background-image: url(/images/icons/arrow-upstop.png);
+}
+
+.icon_cog div
+{
+  background-image: url(/images/icons/cog.png);
+}
+
+.icon_delete div
+{
+  background-image: url(/images/icons/delete.png);
+}
+
+.icon_edit div
+{
+  background-image: url(/images/icons/edit.png);
+}
+
+.icon_email div
+{
+  background-image: url(/images/icons/email.png);
+}
+
+.icon_favourite div
+{
+  background-image: url(/images/icons/favourite.png);
+}
+
+.icon_folder div
+{
+  background-image: url(/images/icons/folder.png);
+}
+
+.icon_gift div
+{
+  background-image: url(/images/icons/gift.png);
+}
+
+.icon_help div
+{
+  background-image: url(/images/icons/help.png);
+}
+
+.icon_minus div
+{
+  background-image: url(/images/icons/minus.png);
+}
+
+.icon_movie div
+{
+  background-image: url(/images/icons/movie.png);
+}
+
+.icon_pause div
+{
+  background-image: url(/images/icons/pause.png);
+}
+
+.icon_play div
+{
+  background-image: url(/images/icons/play.png);
+}
+
+.icon_plus div
+{
+  background-image: url(/images/icons/plus.png);
+}
+
+.icon_refresh div
+{
+  background-image: url(/images/icons/refresh.png);
+}
+
+.icon_save div
+{
+  background-image: url(/images/icons/save.png);
+}
+
+.icon_search div
+{
+  background-image: url(/images/icons/search.png);
+}
+
+.icon_tick div
+{
+  background-image: url(/images/icons/tick.png);
+}
+
+.icon_touch div
+{
+  background-image: url(/images/icons/touch.png);
+}
+
+.icon_x div
+{
+  background-image: url(/images/icons/x.png);
+}
