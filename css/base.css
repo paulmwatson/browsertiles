@@ -31,8 +31,30 @@ body
 h1
 {
   font-size: 56px;
-  margin-bottom: 50px;
-  padding-left: 1%;
-  padding-top: 1%;
-  width: 200%;
+}
+
+/* Theme Selector */
+#theme_selector, #theme_selector li
+{
+display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+
+#theme_selector
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#theme_selector li
+{
+  float: left;
+}
+
+#theme_selector li button
+{
+  border-style: none;
 }

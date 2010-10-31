@@ -1,0 +1,5 @@
+/* browsertiles. bing tile. 2010. Paul M. Watson <paul@paulmwatson.com> */
+.bing div
+{
+  background-image: url(/images/icons/search.png);
+}
